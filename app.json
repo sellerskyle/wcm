@@ -1,0 +1,12 @@
+{
+  "name": "wcm-ble-v2",
+  "displayName": "wcm-ble-v2",
+  "expo": {
+    "name": "wcm-ble-v2",
+    "slug": "wcm-ble-v2",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
