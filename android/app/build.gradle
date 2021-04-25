@@ -132,11 +132,11 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.wcmblev2"
-        minSdkVersion rootProject.ext.minSdkVersion
+        applicationId 'com.Project80.WCMController'
+        minSdkVersion 21
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.0"
     }
     splits {
         abi {

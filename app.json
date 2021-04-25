@@ -1,12 +1,21 @@
 {
   "name": "wcm-ble-v2",
-  "displayName": "wcm-ble-v2",
+  "displayName": "WCM Controller",
   "expo": {
     "name": "wcm-ble-v2",
+    "icon": "./icon/ScalJr2.png",
     "slug": "wcm-ble-v2",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "ios": {
+      "bundleIdentifier": "com.Project80.WCMController",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.Project80.WCMController",
+      "versionCode": 1
+    }
   }
 }
