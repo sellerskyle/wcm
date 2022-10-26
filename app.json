@@ -2,7 +2,7 @@
   "name": "wcm-ble-v2",
   "displayName": "WCM Controller",
   "expo": {
-    "name": "wcm-ble-v2",
+    "name": "WCM Controller",
     "icon": "./icon/ScalJr2.png",
     "slug": "wcm-ble-v2",
     "version": "1.0.0",

@@ -1,4 +1,3 @@
-//import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import React, {Component, useState} from 'react';
 import { StyleSheet, ActivityIndicator, Text, View, Button, TextInput, PermissionsAndroid, Platform, TouchableHighlight } from 'react-native';
@@ -8,7 +7,6 @@ import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import RadioForm, {RadioButton, RadioButtonInput, RadioButtonLabel} from 'react-native-simple-radio-button';
 import base64 from 'react-native-base64'
-//import { TextInput } from 'react-native-gesture-handler';
 
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
@@ -71,8 +69,7 @@ return (
 );
 }
 
-const ConnectionScreen = ({route, navigation}) => {
-  //const {connectionText} = route.params;
+const ConnectionScreen = ({navigation}) => {
   return (
     <View style={styles.container}>
       <Text>Connecting to WCM...</Text>
@@ -84,7 +81,6 @@ const ConnectionScreen = ({route, navigation}) => {
       />
     </View>
   );
-  
 }
 
 
@@ -113,7 +109,7 @@ return (
 
 }
 
-const TypeScreen= ({navigation}) => {
+const TypeScreen = ({navigation}) => {
 return (
   <View style={styles.container}>
     <View style={styles.row}>
